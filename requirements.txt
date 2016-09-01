@@ -1,0 +1,7 @@
+Django==1.4.9
+MySQL-python==1.2.5
+PIL==1.1.7
+django-piston==0.2.3
+qrcode==5.1
+redis==2.8.0
+uWSGI==1.9.18.2
