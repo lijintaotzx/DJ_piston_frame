@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>拷客</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="{{ STATIC_URL }}accounts/css/accounts.css?v1.0{{ VERSION }}" rel="stylesheet">
+     <script type="text/javascript">
+       var static_url= {{ STATIC_URL }};
+    </script>
+</head>
+<body unselectable="on" style="-moz-user-select:none;-webkit-user-select:none;" onselectstart="return false;">
+<div id="msg_layer">
+    <!--这里是弹出层-->
+</div>
+<div id="main">
+    <!-- 这里写主要内容-->
+    <span style='font-size:64px;'>Hello accounts</span>
+</div>
+<script src="{{ STATIC_URL }}js/jquery.js?v1.0{{ VERSION }}"></script>
+<script src="{{ STATIC_URL }}js/kaoke/kaoke_sdk.js?v=1.0{{ VERSION }}"></script>
+<script src="{{ STATIC_URL }}js/kaoke/msgcopy_script.js?v=1.0{{ VERSION }}"></script>
+{{ EMULATOR }}
+<script type="text/javascript" src="{{ STATIC_URL }}accounts/js/accounts.js?v=1.0"></script>
+</body>
+</html>
+    
